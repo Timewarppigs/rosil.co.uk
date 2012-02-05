@@ -1,0 +1,167 @@
+body {
+	background-color: #EBE8ED;
+	width: 80%;
+	max-width: 800px;
+	min-width: 590px;
+	margin: 0 auto;
+	margin-top: 60px;
+	
+	
+
+	
+	/* font-family: 'Glegoo', serif; meh :o
+font-family: 'Lato', sans-serif; fine for Ps
+font-family: 'Arimo', sans-serif; like for normalness
+font-family: 'Montserrat', sans-serif; not so good
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Open Sans', sans-serif; nice
+font-family: 'Varela', sans-serif; more spread out
+
+*/
+}
+
+/* Title*/
+h1 {
+	display: block;
+	padding: 10px;
+	border: solid 2px #D7D4D9;
+	font-size: 225%;
+	font-family:'Open Sans', sans-serif;
+	color: 2A292B;
+	background-color: #EBE8ED;
+}
+
+/* Writing styling and border*/
+p {
+	display: block;
+	padding: 10px;
+	border: solid 2px #D7D4D9;
+	font-size: 100%;
+	font-family:"Arimo", sans-serif;
+	color: 4B494D;
+	background-color: #EBE8ED;
+
+}
+
+/* Picture of me, centred*/
+.rosalindface {
+	display: block;
+	margin: 0 auto;
+}
+
+/* Google Plus Button - doesn't work offline*/
+#gplusbutton {
+	display: block;
+	margin: 0 auto;
+	width: 436px;
+	margin-top: 20px;
+}
+
+/* Menu section :o */
+
+.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #2C5463;
+}
+
+ul#menu {
+	font-family: "Arimo", sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+	width: 80%;
+	max-width: 800px;
+	min-width: 590px;
+	margin: 0 auto;
+}
+
+/*main bit*/
+ul#menu li {
+	display: block;
+	position: relative;
+	float: left;
+}
+/*account nav bit*/
+ul#menu li.right {
+	float: right;
+}
+
+ul#menu li ul {
+	display: none;
+}
+
+ul#menu li a {
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	border-top: 1px solid #ffffff;
+	padding: 5px 15px 5px 15px;
+	background: #2C5463;
+	margin-left: 1px;
+	white-space: nowrap;
+}
+
+ul#menu li a:hover {
+	background: #617F8A;
+}
+
+#menu li:hover ul { 
+	display: block; 
+	position: absolute;
+}
+
+#menu li:hover li { 
+	float: none;
+	font-size: 11px;
+}
+
+#menu li:hover a {
+	background: #617F8A;
+}
+
+#menu li:hover li a:hover {
+	background: #95A9B1;
+}
+
+/*acknowledgements pictures*/
+div.ackpeople {
+	margin: 0 auto;
+	border: solid 2px #D7D4D9;
+	text-align: center;
+	padding: 10px;
+}
+
+/* Hover over acknowledgements descriptions*/
+a .imgDesc {
+  display: none;
+  background: #EBE8ED;
+  position: absolute;
+  width: 200px;
+  margin-left: -22px;
+  padding: 4px;
+  border: solid 2px #D7D4D9;
+  color: black;
+  font-family:"Arimo", sans-serif;
+  text-decoration: none;
+}
+
+a .imgDesc h3 {
+  margin-top: 0;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+a:hover .imgDesc {
+  display: block;
+}
+
+a .imgDesc:hover {
+  display: none;
+}
