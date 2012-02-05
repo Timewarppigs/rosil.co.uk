@@ -136,7 +136,7 @@ div.ackpeople {
 }
 
 /* Hover over acknowledgements descriptions*/
-a .imgDesc {
+a .imagedescription {
   display: none;
   background: #E6E3E4;
   position: absolute;
@@ -149,7 +149,7 @@ a .imgDesc {
   text-decoration: none;
 }
 
-a .imgDesc h3 {
+a .imagedescription h3 {
   margin-top: 0;
 }
 
@@ -157,10 +157,10 @@ a:-webkit-any-link {
   text-decoration: none;
 }
 
-a:hover .imgDesc {
+a:hover .imagedescription {
   display: block;
 }
 
-a .imgDesc:hover {
+a .imagedescription:hover {
   display: none;
 }
