@@ -1,5 +1,5 @@
 body {
-	background-color: #EBE8ED;
+	background-color: #E6E3E4;
 	width: 80%;
 	max-width: 800px;
 	min-width: 590px;
@@ -24,22 +24,22 @@ font-family: 'Varela', sans-serif; more spread out
 h1 {
 	display: block;
 	padding: 10px;
-	border: solid 2px #D7D4D9;
+	border: solid 2px #CECACA;
 	font-size: 225%;
 	font-family:'Open Sans', sans-serif;
 	color: 2A292B;
-	background-color: #EBE8ED;
+	background-color: #E6E3E4;
 }
 
 /* Writing styling and border*/
 p {
 	display: block;
 	padding: 10px;
-	border: solid 2px #D7D4D9;
+	border: solid 2px #CECACA;
 	font-size: 100%;
 	font-family:"Arimo", sans-serif;
 	color: 4B494D;
-	background-color: #EBE8ED;
+	background-color: #E6E3E4;
 
 }
 
@@ -64,7 +64,7 @@ p {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: #2C5463;
+	background-color: #CECACA;
 }
 
 ul#menu {
@@ -98,16 +98,15 @@ ul#menu li ul {
 ul#menu li a {
 	display: block;
 	text-decoration: none;
-	color: #ffffff;
-	border-top: 1px solid #ffffff;
+	color: black;
 	padding: 5px 15px 5px 15px;
-	background: #2C5463;
+	background: #CECACA;
 	margin-left: 1px;
 	white-space: nowrap;
 }
 
 ul#menu li a:hover {
-	background: #617F8A;
+	background: #CECACA;
 }
 
 #menu li:hover ul { 
@@ -121,17 +120,17 @@ ul#menu li a:hover {
 }
 
 #menu li:hover a {
-	background: #617F8A;
+	background: #CECACA;
 }
 
 #menu li:hover li a:hover {
-	background: #95A9B1;
+	background: #CECACA;
 }
 
 /*acknowledgements pictures*/
 div.ackpeople {
 	margin: 0 auto;
-	border: solid 2px #D7D4D9;
+	border: solid 2px #CECACA;
 	text-align: center;
 	padding: 10px;
 }
@@ -139,12 +138,12 @@ div.ackpeople {
 /* Hover over acknowledgements descriptions*/
 a .imgDesc {
   display: none;
-  background: #EBE8ED;
+  background: #E6E3E4;
   position: absolute;
   width: 200px;
   margin-left: -22px;
   padding: 4px;
-  border: solid 2px #D7D4D9;
+  border: solid 2px #CECACA;
   color: black;
   font-family:"Arimo", sans-serif;
   text-decoration: none;
