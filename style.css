@@ -5,10 +5,7 @@ body {
 	min-width: 590px;
 	margin: 0 auto;
 	margin-top: 60px;
-	
-	
-
-	
+		
 	/* font-family: 'Glegoo', serif; meh :o
 font-family: 'Lato', sans-serif; fine for Ps
 font-family: 'Arimo', sans-serif; like for normalness
@@ -24,10 +21,9 @@ font-family: 'Varela', sans-serif; more spread out
 h1 {
 	display: block;
 	padding: 10px;
-	border: solid 2px #CECACA;
-	font-size: 225%;
+	font-size: 40px;
 	font-family:'Open Sans', sans-serif;
-	color: 2A292B;
+	color: #2A292B;
 	background-color: #E6E3E4;
 }
 
@@ -36,15 +32,15 @@ p {
 	display: block;
 	padding: 10px;
 	border: solid 2px #CECACA;
-	font-size: 100%;
+	font-size: 16px;
 	font-family:"Arimo", sans-serif;
 	color: 4B494D;
 	background-color: #E6E3E4;
 
 }
 
-/* Picture of me, centred*/
-.rosalindface {
+/* Picture of shoe centred*/
+.shoe {
 	display: block;
 	margin: 0 auto;
 }
@@ -57,7 +53,7 @@ p {
 	margin-top: 20px;
 }
 
-/* Menu section :o */
+/* nav bar */
 
 .nav {
 	position: fixed;
@@ -80,13 +76,12 @@ ul#menu {
 	margin: 0 auto;
 }
 
-/*main bit*/
 ul#menu li {
 	display: block;
 	position: relative;
 	float: left;
 }
-/*account nav bit*/
+
 ul#menu li.right {
 	float: right;
 }
@@ -98,7 +93,7 @@ ul#menu li ul {
 ul#menu li a {
 	display: block;
 	text-decoration: none;
-	color: black;
+	color: #2A292B;
 	padding: 5px 15px 5px 15px;
 	background: #CECACA;
 	margin-left: 1px;
@@ -135,7 +130,7 @@ div.ackpeople {
 	padding: 10px;
 }
 
-/* Hover over acknowledgements descriptions*/
+/* Hover over acknowledgement descriptions*/
 a .imagedescription {
   display: none;
   background: #E6E3E4;
@@ -144,7 +139,7 @@ a .imagedescription {
   margin-left: -22px;
   padding: 4px;
   border: solid 2px #CECACA;
-  color: black;
+  color: #2A292B;
   font-family:"Arimo", sans-serif;
   text-decoration: none;
 }
@@ -163,4 +158,14 @@ a:hover .imagedescription {
 
 a .imagedescription:hover {
   display: none;
+}
+
+footer {
+	
+	font-family:"Arimo", sans-serif;
+	font-size: 12px;
+	color: #2A292B;
+	background-color: #E6E3E4;
+	position: fixed;
+	bottom: 0px;
 }
