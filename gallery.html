@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Rosil</title>
+  <title>Rosil - Gallery</title>
   <meta name="description" content="The site of the rosil">
   <meta name="author" content="Rosalind Alexander">
 	<link href='http://fonts.googleapis.com/css?family=Glegoo|Lato|Arimo|Montserrat|Maven+Pro|Open+Sans|Varela' rel='stylesheet' type='text/css'>
@@ -18,6 +18,9 @@
     po.src = 'https://apis.google.com/js/plusone.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
+</script>
+<!--twitter button code-->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 </script>
 </head>
 <body>
@@ -43,7 +46,7 @@
 		<a href="gallery.html">Gallery</a>
 	</li>
 	<li>
-		<a href="#">Prices</a>
+		<a href="prices.html">Prices</a>
 	<li>
 	<li>
 		<a href="#">About</a>
@@ -123,10 +126,11 @@
 <img src="typewriter.jpg" alt="typewriter"
 	class="art"/>
 	
-<div id="gplusbutton">
-	<div class="g-plusone" 	data-annotation="inline">
-	</div>
-</div>
+<div id="buttons">
+<!-- placing of G+ button-->
+<div id="gplusbutton"><div class="g-plusone" data-annotation="inline"></div></div>
+<!--placing of twitter button-->
+<a href="https://twitter.com/share" class="twitter-share-button" data-related="timewarppigs">Tweet</a></div>
 
 <footer>rosil.co.uk</footer>
 </body>
